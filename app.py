@@ -3,7 +3,9 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 # MongoDB Connection
 client = MongoClient(
-    'mongodb+srv://vu241fa04b56:241fa04b56@cluster0.vr7q3nm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+
+
+    
 )
 db = client["ecommerce-db"]
 product_collection = db["products"]
