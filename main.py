@@ -2,7 +2,7 @@ from flask import Flask,jsonify,request
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 #users = []
-client=MongoClient('mongodb+srv://vu241fa04b56:241fa04b56@cluster0.vr7q3nm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client=MongoClient('')
 db=client["Users-CRT"]
 user_collection=db["users"]
 print('DB CONNECTED')
